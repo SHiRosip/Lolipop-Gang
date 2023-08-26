@@ -1,0 +1,94 @@
+body {
+    font-family: raleway;
+    display: inline;
+    min-height: 100vh;
+    background-color: #f2dcee;
+}
+
+h1 {
+    text-align: center;
+    background-color: rgb(87, 16, 64);
+    color: rgb(255, 240, 254);
+    letter-spacing: 8px;
+    animation: text 4s 1;
+
+}
+
+h3,
+h4 {
+    text-align: center;
+}
+
+@keyframes text {
+    0% {
+        color: rgb(87, 16, 64);
+        background-color:white ;
+    }
+
+    30% {
+        letter-spacing: 25px;
+    }
+
+    85% {
+        letter-spacing: 8px;
+    }
+}
+H4:hover{
+    background-color: rgb(116, 0, 71);
+    color: rgb(255, 137, 204);
+    letter-spacing: 3px;
+    font-weight: bolder;
+    font-size: large;
+}
+
+p,
+li,
+div {
+    text-align: center;
+    color: rgb(63, 0, 40);
+}
+
+img {
+    border-radius: 2%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+video {
+    margin-left: 10%;
+    margin-right: 10%;
+    border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+   
+}
+video:hover{
+    box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset; 
+}
+
+
+.button {
+    font-family: Raleway;
+    font-weight: 800;
+    display: inline-block;
+    margin-left: 45%;
+    margin-right: 45%;
+    background-color: rgb(58, 5, 65);
+    color: white;
+    padding: 10px 28px;
+    border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    transition-duration: 0.4s;
+    letter-spacing: 3px;
+
+}
+
+.button:hover {
+    background-color: rgb(255, 150, 215);
+    color: rgb(0, 0, 0);
+    letter-spacing: 3px;
+}
+span{
+    color: rgb(106, 6, 56);
+    font-family: Raleway;
+    font-size: 20px;
+    font-weight: 900;
+}
